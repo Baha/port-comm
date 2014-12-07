@@ -7,7 +7,7 @@ start() ->
 
   % Open port
   Port = open_port({spawn, Cmd},[]),
-  io:format("Port opened at ~p.~n",[Port]),
+  io:format("Port opened at ~p.~n", [Port]),
   % Send data
   port_command(Port, Numlist),
   io:format("Sent number list ~p through the port.~n", [Numlist]),
