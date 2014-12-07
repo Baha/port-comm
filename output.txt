@@ -1,0 +1,12 @@
+baha@eol:~/port-comm$ erl
+Erlang R16B03 (erts-5.10.4) [source] [64-bit] [smp:4:4] [async-threads:10] [kernel-poll:false]
+
+Eshell V5.10.4  (abort with ^G)
+1> c(sender).
+{ok,sender}
+2> sender:start().
+Port opened at #Port<0.2283>.
+Sent number list "1,2,3\n" through the port.
+Received sum of numbers through the port: "6".
+ok
+3> 
