@@ -1,1 +1,3 @@
-print "Receiver process spawned!"
+import sys
+
+sys.stdout.write("Python process spawned!")
