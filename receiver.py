@@ -1,0 +1,1 @@
+print "Receiver process spawned!"
